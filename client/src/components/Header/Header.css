@@ -1,0 +1,19 @@
+
+.header-container {
+  background-color:  #499c4d;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin-right: 10px;
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.header-container h1 {
+  color: rgb(20, 19, 19);
+}

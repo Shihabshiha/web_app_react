@@ -1,0 +1,56 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f1f8f5;
+  padding: 20px;
+}
+
+.home-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.home-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #62c46c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.home-container button:hover {
+  background-color: #52b25c;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px; /* Adjust the margin-top value as per your preference */
+}
+
+.welcome-note {
+  margin-bottom: 10px; /* Adjust the margin-bottom value as per your preference */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap value as per your preference */
+}
+
+.profile-button,
+.logout-button {
+  padding: 8px 16px; /* Adjust the padding values as per your preference */
+}
+
