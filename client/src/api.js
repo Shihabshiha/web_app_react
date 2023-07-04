@@ -22,3 +22,15 @@ export function uploadProfileImage(formData, accessToken) {
 export function getProfileImage(data){
   return axios.post(`${API_BASE_URL}/profileImage`, data);
 }
+
+export function adminLogin(data){
+  return axios.post(`${API_BASE_URL}/admin/login`, data)
+}
+
+export function getUsers(){
+  return axios.get(`${API_BASE_URL}/admin/users-list`)
+}
+
+export function deleteTheUser(userId){
+  return axios.delete(`${API_BASE_URL}/admin/deleteUser/${userId}`)
+}

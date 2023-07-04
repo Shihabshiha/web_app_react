@@ -5,7 +5,7 @@ import { adminLogin, usersData, deleteUser } from '../controllers/adminControlle
 /* GET login page. */
 router.post('/login',adminLogin)
 
-router.get('/getUsersData',usersData)
+router.get('/users-list',usersData)
 
 router.delete('/deleteUser/:id',deleteUser); 
 
